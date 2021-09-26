@@ -1,125 +1,126 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body {
+	background: rgb(75, 69, 69);
+}
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.headline {
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+}
+.inp {
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+}
+input {
+	padding: 10px;
+	outline: none;
+	border-radius: 10px;
+	border: none;
+}
+span {
+	color: #fff;
+	margin: 0 10px;
+}
+select {
+	padding: 10px;
+	outline: none;
+	border-radius: 10px;
+}
+.answer {
+	width: 100px;
+	height: 37px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+.total-container {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.btn {
+	width: 100px;
+	height: 37px;
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.total {
+	width: 200px;
+	height: 37px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.botsTotal {
+	width: 100px;
+	height: 37px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.betsTotal {
+	width: 100px;
+	height: 37px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	border-radius: 10px;
+}
 
-  
-  
-  
-  
-  
-  * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  list-style: none;
-  }
-  body {
-    background: rgb(75, 69, 69);
-  }
-  .container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .headline {
-    text-align: center;
-    padding-top: 50px;
-    color: #fff;
-  }
-  .inp {
-    margin: 0 auto;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-  }
-  input {
-    padding: 5px;
-    outline: none;
-  }
-  span {
-    color: #fff;
-    margin: 0 10px;
-  }
-  select {
-    padding: 5px;
-    outline: none
-  }
-  .answer {
-    width: 100px;
-    height: 28px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .total-container {
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  .btn {
-    width: 100px;
-    height: 30px;
-    background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-    margin-top: 30px;
-    cursor: pointer;
-  }
-  .total {
-    width: 200px;
-    height: 25px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .botsTotal {
-    width: 100px;
-    height: 28px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-  }
-  .betsTotal {
-    width: 100px;
-    height: 28px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-  }
+.bets {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.bot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
 
-  .bets {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  .bot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  @media (max-width: 425px){
-    .inp {
-      display: flex;
-      flex-direction: column;
-    }
-    span {
-      margin: 10px;
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
+@media (max-width: 425px) {
+	.inp {
+		display: flex;
+		flex-direction: column;
+	}
+	span {
+		margin: 10px;
+	}
+	.bets {
+		display: flex;
+		flex-direction: column;
+	}
+	.bot {
+		display: flex;
+		flex-direction: column;
+	}
+}
