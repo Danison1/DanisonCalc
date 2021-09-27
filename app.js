@@ -2,6 +2,7 @@ const input = document.querySelector('.input')
 const select = document.querySelector('.select')
 const answer = document.querySelector('.answer')
 const botsTotal = document.querySelector('.botsTotal')
+const betsTotal = document.querySelector('.betsTotal')
 
 const arr2 = []
 
@@ -48,6 +49,7 @@ select.addEventListener('change', (event) => {
   answer.innerHTML = Math.floor(sum)
   let num =  sum / 500
   botsTotal.innerHTML = num.toFixed(1)
+  betsTotal.innerHTML = arr2.length
 })
 
 
