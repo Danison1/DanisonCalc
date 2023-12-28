@@ -47,7 +47,7 @@ select.addEventListener('change', (event) => {
     sum += arr2[i]
   }
   answer.innerHTML = Math.floor(sum)
-  let num =  sum / 500
+  let num =  sum / 750
   botsTotal.innerHTML = num.toFixed(1)
   betsTotal.innerHTML = arr2.length
 })
